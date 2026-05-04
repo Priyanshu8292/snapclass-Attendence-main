@@ -1,5 +1,7 @@
 
 import streamlit as st
+import face_recognition
+import cv2
 
 from src.screens.home_screen import home_screen
 from src.screens.teacher_screen import teacher_screen
